@@ -38,23 +38,5 @@ public class Pesanan {
 
     public String getStatusPesanan() {
         return statusPesanan;
-    }
-
-    public void setNomorPesanan(String nomorPesanan) {
-        this.nomorPesanan = nomorPesanan;
-    }
-
-    public void setMenuItem(List<Menu> menuItem) {
-        this.menuItem = menuItem;
-    }
-
-    public void setTotalHarga(float totalHarga) {
-        this.totalHarga = totalHarga;
-    }
-
-    public void setStatusPesanan(String statusPesanan) {
-        this.statusPesanan = statusPesanan;
-    }
-    
-    
+    }    
 }

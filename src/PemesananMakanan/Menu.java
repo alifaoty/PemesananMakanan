@@ -9,7 +9,7 @@ package PemesananMakanan;
  * @author Lenovo
  */
 public class Menu {
-    private int idMenu;
+    private int idMenu; 
     private String nama;
     private float harga;
     private int stok;
@@ -36,6 +36,4 @@ public class Menu {
     public int getStok() {
         return stok;
     }
-    
-    
 }

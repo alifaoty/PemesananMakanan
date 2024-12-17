@@ -18,7 +18,5 @@ public class Minuman extends Menu{
 
     public String getUkuran() {
         return ukuran;
-    }
-    
-    
+    } 
 }

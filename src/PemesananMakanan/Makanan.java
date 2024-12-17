@@ -19,6 +19,4 @@ public class Makanan extends Menu{
     public String getKategori() {
         return kategori;
     }
-    
-    
 }
