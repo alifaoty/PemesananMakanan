@@ -11,10 +11,10 @@ package PemesananMakanan;
 public class Menu {
     private int idMenu;
     private String nama;
-    private double harga;
+    private float harga;
     private int stok;
 
-    public Menu(int idMenu, String nama, double harga, int stok) {
+    public Menu(int idMenu, String nama, float harga, int stok) {
         this.idMenu = idMenu;
         this.nama = nama;
         this.harga = harga;
@@ -29,7 +29,7 @@ public class Menu {
         return nama;
     }
 
-    public double getHarga() {
+    public float getHarga() {
         return harga;
     }
 

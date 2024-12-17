@@ -11,7 +11,7 @@ package PemesananMakanan;
 public class Makanan extends Menu{
     private String kategori;
 
-    public Makanan(int idMenu, String nama, double harga, int stok, String kategori) {
+    public Makanan(int idMenu, String nama, float harga, int stok, String kategori) {
         super(idMenu, nama, harga, stok);
         this.kategori = kategori;
     }
